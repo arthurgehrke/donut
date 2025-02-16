@@ -1,3 +1,8 @@
+#include <stdio.h>   // Para printf() e putchar()
+#include <string.h>  // Para memset()
+#include <math.h>    // Para sin() e cos()
+#include <unistd.h>  // Para usleep()
+
 int main() {
 float A = 0, B = 0;
 float i, j;
@@ -37,7 +42,7 @@ for(;;) {
         A += 0.00004;
         B += 0.00002;
     }
-    usleep(30000);
+    usleep(10000);
 }
 return 0;
 }
